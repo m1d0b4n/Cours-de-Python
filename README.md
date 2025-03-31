@@ -11,6 +11,6 @@ Créer une méthode qui détecte si la chaîne de caractère reçu est une adres
 Reprendre la méthode de la question 4 et rendre possible l’envois d’une liste d’adresse IP (4 ou 6)
 Idem à la question 5 mais la valeur en entrée de votre méthode sera un dictionnaire contenant un host en clé et une adresse IP en valeur.
 <br>
-[Voir le code](./exercices/exo_1.py)
+[./exercices/exo_1.py](Voir le code)
 </details>
 </details>
