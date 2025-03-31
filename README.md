@@ -4,7 +4,7 @@
 ### Intervenant : `M. RASPAUD Alexandre`
 
 <details>
-<summary>Exercice 1 : Traiter des adresses IP</summary><br>
+<summary>Exercice 1</summary><br>
 
 1. Ecrire un script qui demande à l’utilisateur de taper une adresse IPv4 ; puis l’afficher
 2. Ecrire une méthode qui vérifie les adresses IPv4 rentrées par les utilisateurs
@@ -14,4 +14,24 @@
 6. Idem à la question 5 mais la valeur en entrée de votre méthode sera un dictionnaire contenant un host en clé et une adresse IP en valeur.
     
 [Voir le code](./exercices/exo_1.py)
+
+---
+
+</details>
+
+<details>
+<summary>Exercice 2</summary><br>
+
+1. Reprendre la question 6 (ou 5) de l’exercice 1 et ajouter un try-except. Assurez-vous qu’il fonctionne en simulant une erreur.
+2. Ecrire une méthode qui remplace certaines lettres par “x” dans un fichier texte, dont vous choisirez le chemin. Assurez vous de gérer correctement les exceptions. Utilisez la librairie de votre choix ; fileinput étant une possibilité supplémentaire 😉
+3. Stocker le contenu d’un fichier texte dans un dictionnaire, puis le retourner en respectant ce format: {1: “ligne 1”, 2: “ligne 2”}
+4. Afficher proprement chaque élément de ce dictionnaire comme suit :
+    - Ligne numéro X : Y caractères → “contenu de la ligne X en question”
+    - Ligne numéro X+1 : Z caractères → “contenu de la ligne X+1 en question”
+
+    
+[Voir le code](./exercices/exo_2.py)
+
+---
+
 </details>
