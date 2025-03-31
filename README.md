@@ -1,3 +1,5 @@
+<img alt="Coding" width="200" height="200" src="https://assets-v2.lottiefiles.com/a/62e02bc6-116f-11ee-aeb0-077c335b3c67/XpwfUikILP.gif">
+
 # Bibliotèques des exercice réalisés en cours de Python.
 ### Intervenant : `M. RASPAUD Alexandre`
 
