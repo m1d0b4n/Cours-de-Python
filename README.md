@@ -12,7 +12,7 @@
 4. Créer une méthode qui détecte si la chaîne de caractère reçu est une adresse IPv4 ou IPv6, la vérifie et renvois à l’utilisateur la version d’IP (4 ou 6) si elle est valide.
 5. Reprendre la méthode de la question 4 et rendre possible l’envois d’une liste d’adresse IP (4 ou 6)
 6. Idem à la question 5 mais la valeur en entrée de votre méthode sera un dictionnaire contenant un host en clé et une adresse IP en valeur.
-    
+
 [Voir le code](./exercices/exo_1.py)
 
 ---
@@ -29,8 +29,21 @@
     - Ligne numéro X : Y caractères → “contenu de la ligne X en question”
     - Ligne numéro X+1 : Z caractères → “contenu de la ligne X+1 en question”
 
-    
 [Voir le code](./exercices/exo_2.py)
+
+---
+
+</details>
+
+<details>
+<summary>Exercice 3</summary><br>
+
+1. Ecrire une méthode qui exécute une requête (GET et/ou POST) à l’API de votre choix et qui retourne les données (et les données seulement) récoltées dans un dictionnaire et gérer le cas où l’API vous retourne un code 4xx
+2. Importer un fichier CSV, modifier son contenu et sauvegarder le tout dans un deuxième fichier CSV (n'écrasez pas le fichier d’origine) 
+3. Exporter les données de la méthode codé à l’exercice numéro 2, question 3 dans un fichier JSON
+4. Idem à la question 3, mais exporter les données dans un fichier CSV, avec des noms de colonnes bien entendu.
+
+[Voir le code](./exercices/exo_3.py)
 
 ---
 
