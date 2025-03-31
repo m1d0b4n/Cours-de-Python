@@ -3,7 +3,7 @@
 
 <details>
 <summary>Exercice 1 : Traiter des adresses IP</summary>
-<br>
+   
 1. Ecrire un script qui demande à l’utilisateur de taper une adresse IPv4 ; puis l’afficher
 2. Ecrire une méthode qui vérifie les adresses IPv4 rentrées par les utilisateurs
 3. Faire de même avec les adresses IPv6
