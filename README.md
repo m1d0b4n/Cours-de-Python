@@ -48,3 +48,16 @@
 ---
 
 </details>
+
+<details>
+<summary>Exercice 4</summary><br>
+
+1. A l’aide de la méthode de votre choix, créer une méthode pour lister le contenu de votre dossier de travail et créer une copie du fichier de votre choix ; dans le nom de cette copie devra figurer la date et l’heure à laquelle la copie a été faite.
+2. A l’aide de la méthode de votre choix, compter le nombre de fichier (pas dossier !) dans votre dossier de travail.
+3. Reprendre la question 2, et rendez possible le passage d’argument à votre script pour que votre méthode puisse compter le nombre de fichier dans un dossier qui sera passé en argument à votre script.
+
+[Voir le code](./exercices/exo_4.py)
+
+---
+
+</details>
