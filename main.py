@@ -16,6 +16,7 @@ from modules.Mod_exo_7 import (
 from modules.ascii_art import afficher_logo
 from modules.menu import menu
 from modules.Mod_exo_8 import lister_interfaces_reseau_local, lister_interfaces_reseau_distant
+from getpass import getpass
 
 # Affiche l'ASCII une seule fois au lancement
 afficher_logo()
@@ -100,7 +101,7 @@ while True:
     elif choix == "10":
         host = input("❓ Adresse IP/nom d’hôte de la machine distante : ")
         user = input("❓ Nom d’utilisateur : ")
-        password = input("❓ Mot de passe SSH : ")
+        password = getpass("❓ Mot de passe SSH : ")
         lister_interfaces_reseau_distant(host, user, password)
 
     elif choix == "0":
