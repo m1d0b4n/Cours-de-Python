@@ -100,7 +100,7 @@ while True:
     elif choix == "10":
         host = input("❓ Adresse IP/nom d’hôte de la machine distante : ")
         user = input("❓ Nom d’utilisateur : ")
-        password = input("🔐 Mot de passe SSH : ")
+        password = input("❓ Mot de passe SSH : ")
         lister_interfaces_reseau_distant(host, user, password)
 
     elif choix == "0":

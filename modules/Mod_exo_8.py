@@ -26,6 +26,7 @@ def lister_interfaces_reseau_distant(host, user, password):
     try:
         conn = Connection(host=host, user=user, connect_kwargs={"password": password})
         result = conn.run("ip addr", hide=True)
+        print("   ")
         print("✅ Interfaces réseau sur la machine distante :\n")
         print(result.stdout)
     except Exception as e:
