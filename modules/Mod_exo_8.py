@@ -1,12 +1,27 @@
 import subprocess
+import re
 
 # --- Q1 : Interfaces réseau locales via psutil (cross-platform) ---
 def lister_interfaces_reseau_local():
     try:
-        result = subprocess.run(["ipconfig"], capture_output=True, text=True)
+        result = subprocess.run(["ipconfig"], capture_output=True, text=True, encoding="cp850")  # 👈 clé ici
         if result.returncode == 0:
-            print("✅ Interfaces détectées (via 'ipconfig') :\n")
-            print(result.stdout)
+            print("✅ Interfaces détectées (via 'ipconfig' + regex) :\n")
+
+            lignes = result.stdout.splitlines()
+            interfaces = []
+
+            for line in lignes:
+                match = re.match(r"^Carte (.+?)\s*:$", line.strip())
+                if match:
+                    nom_interface = match.group(1)
+                    interfaces.append(nom_interface)
+
+            if interfaces:
+                for i, interface in enumerate(interfaces, 1):
+                    print(f"  🔹 {i}. {interface}")
+            else:
+                print("❌ Aucune interface détectée.")
         else:
             print("❌ Erreur lors de l’exécution de 'ipconfig'.")
     except FileNotFoundError:
