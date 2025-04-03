@@ -22,7 +22,7 @@ afficher_logo()
 
 while True:
     menu()
-    choix = input("❓ Choisissez une option (1-9) : ")
+    choix = input("❓ Choisissez une option : ")
 
     if choix == "1":
         ip = input("❓ Entrez une adresse IP : ")
