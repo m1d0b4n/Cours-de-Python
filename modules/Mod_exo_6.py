@@ -30,7 +30,7 @@ def exporter_processus_json(fichier):
 def afficher_gros_processus_seulement():
     for proc in psutil.process_iter(attrs=["pid", "name", "memory_percent"]):
         try:
-            if proc.info["memory_percent"] > 2.0:
+            if proc.info["memory_percent"] > 1.0:
                 print(f'{proc.info["name"]} (PID {proc.info["pid"]}) utilise {proc.info["memory_percent"]:.2f}% de RAM')
         except (psutil.NoSuchProcess, psutil.AccessDenied):
             continue

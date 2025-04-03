@@ -1,0 +1,6 @@
+id,name,boolean,url
+1,RedditBot,Yes,https://reddit.com/r/Python
+2,HackerNews,No,https://news.ycombinator.com
+3,PyScraper,Yes,https://medium.com
+4,DataMiner,No,https://reddit.com/r/data
+5,BotScan,Yes,https://github.com
