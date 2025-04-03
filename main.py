@@ -21,6 +21,7 @@ from getpass import getpass
 # Affiche l'ASCII une seule fois au lancement
 afficher_logo()
 
+# Lancer le menu principal en boucle
 while True:
     menu()
     choix = input("❓ Choisissez une option : ")
